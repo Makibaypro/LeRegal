@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #000000;
+  --color-primary: #3a86ff;
+  --color-text: #f0f0f0;
+  --color-text-muted: #888888;
+
+  --font-main: 'Inter', sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+
+  --max-width: 1200px;
+  --border-radius: 8px;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    width: 100dvw;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            a {
+                font-family: 'Le Murmure', sans-serif;
+                font-size: x-large;
+                padding: 0% 10%;
+            }
+
+        }
+    }
+    table {
+    
+        font-family: 'fragment-mono', sans-serif;
+
+        caption {
+            
+            font-family: 'general-sans', sans-serif;
+
+        }
+
+
+    }
+}

@@ -1,0 +1,18 @@
+# CinemaRegal
+# Lancer :   docker compose up -d
+# Arrêter :  docker compose down        (les données persistent dans le volume)
+# Reset :    docker compose down -v     (supprime le volume → le dump est rechargé au prochain up)
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: regalAdmin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: cinema
+    volumes:
+        - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  db_data:
