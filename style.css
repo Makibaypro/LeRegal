@@ -24,12 +24,12 @@ body {
     color: var(--color-text);
     width: 100dvw;
 
-    header {
+    & header {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        img{
+        & img{
             width: 65%;
         }
 
@@ -58,7 +58,6 @@ body {
         font-family: 'fragment-mono', sans-serif;
         border-collapse: collapse;
         border: 2px solid rgb(200 200 200);
-        border-collapse: collapse;
         width: 90%;
 
         caption {
