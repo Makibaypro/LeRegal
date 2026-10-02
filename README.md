@@ -4,7 +4,7 @@ Base de données de gestion d'un cinéma (salles, films, séances, spectateurs, 
 
 Projet individuel réalisé pendant ma formation à Ada Tech School (semaine 11), pour pratiquer la conception d'une base de données relationnelle et PostgreSQL avec Docker.
 
-<!-- Ajoute ici une capture d'écran de la page : ![Aperçu de la page](./docs/apercu.png) -->
+![Aperçu de la page](./docs/Screenshot1.png)
 
 ## Contenu
 
