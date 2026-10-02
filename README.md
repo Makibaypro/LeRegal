@@ -70,6 +70,10 @@ index.html, style.css  Page de présentation du cinéma
 - Charger automatiquement le script de création au premier démarrage du conteneur
 - Relier la page à la base avec une API (Node.js / Express)
 
+## Crédits
+
+Le logo a été généré par IA.
+
 ## Auteur
 
 Maxence Chotard
